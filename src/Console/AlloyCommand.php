@@ -26,7 +26,7 @@ class AlloyCommand extends Command
             ->addArgument('task', null, 'Nom de la tâche à exécuter');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $module = $input->getArgument('module');
         $task = $input->getArgument('task');
