@@ -1,0 +1,21 @@
+{
+  "name": "tinyforge/alloy",
+  "description": "Orchestor for TinyForge framework",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Forge\\Alloy\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Aure",
+      "email": "147180124+AureDulvresse@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "tinyforge/cli": "^1.1",
+    "tinyforge/common": "^1.0"
+  }
+}
